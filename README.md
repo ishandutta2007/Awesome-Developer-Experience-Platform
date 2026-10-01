@@ -1,201 +1,133 @@
-# Awesome-Developer-Experience-Platform
-
-## Top Developer Experience (DevEx) Platform Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Engineering Metrics, Developer Surveys & Productivity Analytics*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Developer Experience (DevEx)**. These tools measure and improve how developers work by combining quantitative engineering metrics (DORA, PR throughput) with qualitative developer surveys to identify friction and drive improvements.
-
-
-
-**Examples** include DX (getdx), LinearB, Swarmia, Jellyfish, Harness IDP, Port, Cortex, OpsLevel, Roadie, and Humanitec (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source ecosystem for DevEx is anchored by **Apache DevLake** (dev data platform with DORA dashboards), **CDviz** (event-driven pipeline observability), and **Middleware** (open-source DORA metrics). While commercial platforms lead in survey frameworks and benchmark data, open-source tools provide strong quantitative foundations with data ownership.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[DX (getdx)](https://getdx.com/)**  
-
-  Research-backed DevEx platform centered on the **Developer Experience Index (DXI)** — a validated measure of engineering effectiveness with over 4 million benchmark samples from 800+ organizations . DXI is proven to correlate with business outcomes: a single-point increase correlates to 0.7% increased engineering efficiency in reduced time loss . Combines quarterly developer surveys (Snapshots) with system metrics from SCM, CI/CD, and issue trackers . The **DX Core 4** framework unifies DORA, SPACE, and DevEx into Speed, Effectiveness, Quality, and Impact .
-
-
-
-- **[LinearB](https://linearb.io/)**  
-
-  Engineering intelligence platform with strong workflow automation (WorkerB) and PR cycle time optimization. Recent 2026 releases add **MCP Server** for natural language engineering data access, **AI Insights dashboard** tracking 24+ AI tools (GitHub Copilot, Cursor, Claude Code, etc.), and **DevEx surveys** — all included in the $29/contributor/month Essentials plan . Free tier for up to 8 contributors .
-
-
-
-- **[Swarmia](https://www.swarmia.com/)**  
-
-  Engineering effectiveness analytics platform combining DORA metrics, developer experience, investment balance, and AI adoption insights . Publishes transparent pricing: **Standard** at $45/developer/month (all four modules) and **Enterprise** at $55 (adds on-prem integrations, HR systems) . Free for teams under 10 developers. SOC 2 Type 2 compliant.
-
-
-
-- **[Jellyfish](https://jellyfish.co/)**  
-
-  Enterprise engineering management platform positioning itself around investment allocation and business alignment. Stronger executive reporting and portfolio management features than Swarmia or LinearB, targeting organizations with 100+ developers . Pricing typically $500–800 per developer annually .
-
-
-
-- **[Harness IDP](https://www.harness.io/)**  
-
-  Internal developer portal integrated with Harness's broader software delivery platform.
-
-
-
-- **[Port](https://www.port.io/)**  
-
-  Managed, API-first internal developer portal with flexible blueprints for modeling entities. Self-service actions trigger GitHub Actions, Terraform, or webhooks. Free tier up to 15 seats .
-
-
-
-- **[Cortex](https://www.cortex.io/)**  
-
-  Service catalog and engineering intelligence platform with the deepest scorecard engine. AI engine (Magellan) assists catalog auditing. Pricing approximately $65–69 per user/month .
-
-
-
-- **[OpsLevel](https://www.opslevel.com/)**  
-
-  Managed service catalog with automated service discovery and simpler data model than Port's blueprint system.
-
-
-
-- **[Roadie](https://roadie.io/)**  
-
-  Fully managed, hosted Backstage. Teams plan at $24 per developer/month for 50–150 developers .
-
-
-
-- **[Humanitec](https://humanitec.com/)**  
-
-  Platform orchestrator centered on the open-source **Score** workload specification, focused on environment drift and provisioning rather than service cataloging.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[Apache DevLake](https://github.com/apache/incubator-devlake)**  
-
-  Open-source dev data platform that ingests, analyzes, and visualizes fragmented data from DevOps tools. Provides DORA dashboards, SDLC data integration, Grafana dashboards, custom metrics, and extensibility via SQL . **Requires internal ownership** — someone must manage setup, integrations, data definitions, dashboard governance, upgrades, and interpretation . Best for organizations with data engineering capacity and open-source preference.
-
-
-
-- **[CDviz](https://cdviz.dev/)**  
-
-  Open-source platform (Apache 2.0) with self-hosted and SaaS options for CI/CD pipeline observability and DORA metrics. Built on **CDEvents** open standard for portable event data . Events can trigger downstream workflows — the same event stream drives observability and automation . Self-hosted is free (infra costs only); Cloud option at €20/month, Pro at €200/month with commercial support . **Quantitative-only** — does not run developer experience surveys .
-
-
-
-- **[Middleware](https://github.com/middlewarehq/middleware)**  
-
-  Open-source DORA metrics platform for engineering teams . Lightweight alternative for teams wanting basic DORA tracking without the complexity of DevLake.
-
-
-
-- **[java-local-metrics (Agoda)](https://github.com/agoda-com/java-local-metrics)**  
-
-  Open-source library measuring the **F5 Experience** — local development workstation performance. Captures test execution time, build times, and system resource usage for JUnit and ScalaTest . Helps teams identify local iteration bottlenecks (slow tests, sluggish builds) that impact developer flow. Apache-2.0 licensed.
-
-
-
-- **[DevEx Resources](https://github.com/shaharia-lab/devex-resources)**  
-
-  Curated collection of frameworks, research papers, articles, and tools for improving developer experience and measuring productivity. Includes DORA, SPACE, and DevEx research .
-
-
-
-- **[Awesome Developer Experience](https://github.com/prokopsimek/awesome-developer-experience)**  
-
-  Curated list of DX resources including documentation tools, API platforms, automation, knowledge management, and local development tools .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **DX Core 4 Open Framework** — The DX Core 4 methodology (Speed, Effectiveness, Quality, Impact) is publicly documented and can be implemented with open-source data sources .
-
-- **Grafana + Prometheus** — Community-favored stack for building custom engineering metrics dashboards from CI/CD and SCM data.
-
-- **OpenTelemetry** — Vendor-neutral instrumentation for collecting pipeline and deployment telemetry that can feed DevEx analytics.
-
-
-
-**Frameworks for building custom DevEx solutions**: Combine **Apache DevLake** for comprehensive SDLC data ingestion and DORA dashboards with **CDviz** for event-driven pipeline observability and workflow automation . Use **Middleware** for lightweight DORA tracking. Integrate **java-local-metrics** for measuring local iteration speed (F5 Experience) . For survey-based qualitative data, organizations typically build custom survey pipelines using tools like **Google Forms** paired with the DX Core 4 framework for structured measurement . Note that true enterprise DevEx platforms with validated benchmark data (DX's 4M+ sample DXI), built-in survey frameworks, and AI tool tracking remain primarily commercial territory; open-source stacks provide strong quantitative foundations with data ownership that require integration for complete DevEx programs .
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- DevEx platforms collect data from source control, CI/CD, and issue trackers, and may survey developers about their work experience. Self-hosted solutions require proper security hardening and compliance with data privacy regulations (GDPR, CCPA).
-
-- Engineering metrics can be misused. DORA metrics and PR throughput should inform improvement conversations, not individual performance evaluation. The DX Core 4 explicitly notes that PR throughput is "not at individual level" for good reason .
-
-- The open-source ecosystem provides strong quantitative foundations and data ownership, but validated benchmark data (DX's DXI), built-in survey frameworks, and AI tool tracking remain primarily commercial offerings.
-
-
+# 🚀 Awesome Developer Experience Platform (DevEx)
+
+![Awesome Developer Experience Platform Banner](assets/banner.svg)
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License"/>
+  <img src="https://img.shields.io/badge/DevEx-DORA%20%7C%20SPACE%20%7C%20DXI-orange?style=flat-square" alt="DevEx Metrics"/>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
+## 💡 Overview & Market Landscape
 
+This curated awesome list tracks the top **SaaS platforms** and **open-source GitHub projects** dedicated to **Developer Experience (DevEx)**, **Developer Productivity Analytics**, **Internal Developer Portals (IDP)**, and **Software Delivery Intelligence (DORA / SPACE)**.
 
-**Made for engineering leaders, developer experience teams, platform engineers, and DevEx researchers.**
+> 📊 **Estimated Market Size & Structure**: The Developer Experience & Productivity Platform market is estimated at **$1.8 Billion – $2.5 Billion** (as of 2026) with a projected CAGR of 22% towards $5B+ by 2030. The market structure is **moderately fragmented**, balancing enterprise software delivery platforms, specialized service catalog & IDP solutions, and research-backed qualitative developer survey tools.
 
-Let's make developer experience more open, transparent, and developer-centric.
+---
+
+## 📑 Table of Contents
+
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🌟 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📊 DevEx Frameworks Comparison](#-devex-frameworks-comparison)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚖️ Disclaimer](#%EF%B8%8F-disclaimer)
+
+---
+
+## 🏢 SaaS & Hosted Platforms
+
+> 💡 *Below is a comparative breakdown of commercial SaaS DevEx solutions, sorted by **Company Size / Valuation & Scale** (descending).*
+
+| Platform | Description & Key Focus | Starting Tier Pricing | Free Tier / Trial Limit | Company Size & Valuation |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Harness IDP](https://www.harness.io/)** | Internal developer portal integrated with Harness software delivery platform, service catalogs, and automated software templates. | $25 / developer / month (IDP module / HSU model) | Free plan for up to 5 developers & 100 services (14-day trial on paid features) | **Mega Enterprise** (~$3.7B Valuation, $230M+ funding) |
+| **[Jellyfish](https://jellyfish.co/)** | Enterprise engineering management platform positioning around business alignment, allocation tracking, and executive portfolio reporting. | $500 / developer / year (~$41.67 / dev / month) | 14-day custom POC / trial (no permanent free tier) | **Large Enterprise** (~$500M Valuation, $115M+ funding) |
+| **[Cortex](https://www.cortex.io/)** | Service catalog & engineering intelligence platform with deep scorecards and Magellan AI catalog auditing assistant. | $65 / user / month (Standard plan estimate) | 14-day custom POC / demo pilot (no permanent free tier) | **Mid-Enterprise** (~$300M Valuation, $50M+ funding) |
+| **[LinearB](https://linearb.io/)** | Engineering intelligence platform with PR cycle time optimization, WorkerB automation, AI Insights, and DevEx survey analytics. | $29 / contributor / month (Essentials plan) | Free forever for up to 8 contributors (14-day trial on paid features) | **Growth Stage** (~$200M Valuation, $71M+ funding) |
+| **[Port](https://www.port.io/)** | Managed, API-first internal developer portal with customizable entity blueprints, self-service actions, and governance scorecards. | $30 / seat / month (Basic plan, billed annually) | Free forever for up to 15 active users (10,000 entities, 400 runs) | **Growth Stage** (~$150M–$200M Valuation, $53M+ funding) |
+| **[Humanitec](https://humanitec.com/)** | Internal developer platform & environment orchestrator built around the open-source Score specification for automated environment provisioning. | $1,979 / month (Teams plan, covering ~5 users) | 30-day free trial (no permanent free tier) | **Growth Stage** (~$100M–$150M Valuation, $34M+ funding) |
+| **[OpsLevel](https://www.opslevel.com/)** | Service catalog with automated service discovery, maturity scorecards, and developer self-service workflow automation. | $39 / developer / month (Standard plan estimate) | 14-day free trial (no permanent free tier) | **Growth Stage** (~$80M–$100M Valuation, $20M+ funding) |
+| **[DX (getdx)](https://getdx.com/)** | Research-backed DevEx platform centered on the Developer Experience Index (DXI) and DX Core 4 framework (DORA + SPACE + DevEx). | ~$50–$65 / developer / month (starts at ~$21,000/year contract) | Custom POC / demo pilot (no standard free tier) | **Scale-Up** (~$50M–$100M Valuation, $18M+ funding) |
+| **[Swarmia](https://www.swarmia.com/)** | Engineering effectiveness platform combining DORA metrics, developer satisfaction surveys, investment balance, and AI tool adoption. | $45 / developer / month (Standard plan) | Free forever for up to 10 developers (14-day trial for larger teams) | **Scale-Up** (~$50M–$70M Valuation, $14.5M funding) |
+| **[Roadie](https://roadie.io/)** | Fully managed, SaaS Backstage internal developer portal with plugin integrations, catalog scorecards, and automated maintenance. | $24 / developer / month (Teams plan, 50–150 devs) | 45-day free trial (Free self-hosted Roadie Local for <15 users) | **Early Stage** (~$20M–$30M Valuation, $5M funding) |
+
+---
+
+## 🌟 Open-Source GitHub Projects
+
+> 💡 *Open-source projects provide customizable developer data platforms, event standards, and workstation metrics. Sorted by **GitHub Star Count** (descending).*
+
+- **[Spotify Backstage](https://github.com/backstage/backstage)** [![GitHub stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)  
+  CNCF incubating open-source platform for building internal developer portals (IDPs). Unified software catalog, software templates, and plugin ecosystem powered by a massive global community.
+
+- **[Apache DevLake](https://github.com/apache/incubator-devlake)** [![GitHub stars](https://img.shields.io/github/stars/apache/incubator-devlake?style=social&color=white)](https://github.com/apache/incubator-devlake/stargazers)  
+  Open-source developer data platform that ingests, analyzes, and visualizes fragmented data from DevOps tools. Provides out-of-the-box DORA dashboards, Grafana integrations, and customizable SQL data schemas.
+
+- **[Middleware](https://github.com/middlewarehq/middleware)** [![GitHub stars](https://img.shields.io/github/stars/middlewarehq/middleware?style=social&color=white)](https://github.com/middlewarehq/middleware/stargazers)  
+  Lightweight open-source engineering management and DORA metrics platform designed for agile engineering teams tracking cycle time and deployment frequency.
+
+- **[Score Workload Specification](https://github.com/score-spec/score)** [![GitHub stars](https://img.shields.io/github/stars/score-spec/score?style=social&color=white)](https://github.com/score-spec/score/stargazers)  
+  Developer-centric, open-source workload specification that enables developers to define environment-agnostic workload requirements without needing complex infrastructure code.
+
+- **[Faros AI Community Edition](https://github.com/faros-ai/faros-community-edition)** [![GitHub stars](https://img.shields.io/github/stars/faros-ai/faros-community-edition?style=social&color=white)](https://github.com/faros-ai/faros-community-edition/stargazers)  
+  Open-source engineering operational data platform connecting engineering operations data across SCM, CI/CD, issue trackers, and HR systems into a single GraphQL API.
+
+- **[CDEvents Specification](https://github.com/cdevents/spec)** [![GitHub stars](https://img.shields.io/github/stars/cdevents/spec?style=social&color=white)](https://github.com/cdevents/spec/stargazers)  
+  Open standard specification for CloudNative Events in Continuous Delivery (Continuous Integration & Delivery events), enabling interoperable measurement across build pipelines.
+
+- **[CDviz](https://github.com/cdviz/cdviz)** [![GitHub stars](https://img.shields.io/github/stars/cdviz/cdviz?style=social&color=white)](https://github.com/cdviz/cdviz/stargazers)  
+  Open-source event-driven pipeline observability and DORA metrics platform built on top of the CDEvents standard.
+
+- **[java-local-metrics (Agoda)](https://github.com/agoda-com/java-local-metrics)** [![GitHub stars](https://img.shields.io/github/stars/agoda-com/java-local-metrics?style=social&color=white)](https://github.com/agoda-com/java-local-metrics/stargazers)  
+  Open-source Java library measuring local developer workstation build and test execution performance (the **F5 Experience**).
+
+- **[DevEx Resources](https://github.com/shaharia-lab/devex-resources)** [![GitHub stars](https://img.shields.io/github/stars/shaharia-lab/devex-resources?style=social&color=white)](https://github.com/shaharia-lab/devex-resources/stargazers)  
+  Curated resource collection covering Developer Experience research papers, framework specifications, DORA metrics, and SPACE guidelines.
+
+- **[Awesome Developer Experience](https://github.com/prokopsimek/awesome-developer-experience)** [![GitHub stars](https://img.shields.io/github/stars/prokopsimek/awesome-developer-experience?style=social&color=white)](https://github.com/prokopsimek/awesome-developer-experience/stargazers)  
+  Curated index of DX tooling, API design standards, knowledge bases, and local development environments.
+
+---
+
+## 📊 DevEx Frameworks Comparison
+
+| Framework | Core Focus | Key Metrics Measured | Best Suited For |
+| :--- | :--- | :--- | :--- |
+| **DORA Metrics** | Quantitative DevOps Delivery | Lead Time for Changes, Deployment Frequency, Change Failure Rate, MTTR | CI/CD & Pipeline Velocity |
+| **SPACE Framework** | Holistic Productivity | Satisfaction, Performance, Activity, Communication, Efficiency | Cross-functional Engineering Management |
+| **DXI (DX Core 4)** | Developer Satisfaction & Flow | Speed, Effectiveness, Quality, Impact & Perception Surveys | Research-backed DevEx Organizations |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these guidelines:
+1. Check the existing entries to avoid duplicates.
+2. Open a Pull Request with factual descriptions, specific pricing references, and official links.
+3. Check out the main awesome list collection at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Developer-Experience-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Developer-Experience-Platform&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository helpful for evaluating DevEx platforms, please consider giving it a star 🌟, sharing it with your engineering team, or supporting further development!
+
+- ⭐️ **Star & Fork** this repo to help others discover top DevEx tools.
+- 💬 **Join the Discussion** on our [Discord Community](https://discord.gg/jc4xtF58Ve).
+- ☕ **Sponsor / Buy a Coffee**: Support ongoing maintenance via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge&logo=github" alt="Sponsor on GitHub"/>
+  </a>
+</p>
+
+---
+
+## ⚖️ Disclaimer
+
+*This project is curated for educational and comparison purposes. Product names, logos, and trademarks belong to their respective owners. Pricing data is based on public disclosures and industry benchmark estimates as of 2026.*

@@ -53,36 +53,36 @@ This curated awesome list tracks the top **SaaS platforms** and **open-source Gi
 
 ## 🌟 Open-Source GitHub Projects
 
-> 💡 *Open-source projects provide customizable developer data platforms, event standards, and workstation metrics. Sorted by **GitHub Star Count** (descending).*
+> 💡 *Open-source projects provide customizable developer data platforms, event standards, and workstation metrics. Sorted by **GitHub Stars_Count** (descending).*
 
-- **[Spotify Backstage](https://github.com/backstage/backstage)** [![GitHub stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)  
+- **[Spotify Backstage](https://github.com/backstage/backstage)** [![GitHub_Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)  
   CNCF incubating open-source platform for building internal developer portals (IDPs). Unified software catalog, software templates, and plugin ecosystem powered by a massive global community.
 
-- **[Apache DevLake](https://github.com/apache/incubator-devlake)** [![GitHub stars](https://img.shields.io/github/stars/apache/incubator-devlake?style=social&color=white)](https://github.com/apache/incubator-devlake/stargazers)  
+- **[Apache DevLake](https://github.com/apache/incubator-devlake)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/incubator-devlake?style=social&color=white)](https://github.com/apache/incubator-devlake/stargazers)  
   Open-source developer data platform that ingests, analyzes, and visualizes fragmented data from DevOps tools. Provides out-of-the-box DORA dashboards, Grafana integrations, and customizable SQL data schemas.
 
-- **[Middleware](https://github.com/middlewarehq/middleware)** [![GitHub stars](https://img.shields.io/github/stars/middlewarehq/middleware?style=social&color=white)](https://github.com/middlewarehq/middleware/stargazers)  
+- **[Middleware](https://github.com/middlewarehq/middleware)** [![GitHub_Stars](https://img.shields.io/github/stars/middlewarehq/middleware?style=social&color=white)](https://github.com/middlewarehq/middleware/stargazers)  
   Lightweight open-source engineering management and DORA metrics platform designed for agile engineering teams tracking cycle time and deployment frequency.
 
-- **[Score Workload Specification](https://github.com/score-spec/score)** [![GitHub stars](https://img.shields.io/github/stars/score-spec/score?style=social&color=white)](https://github.com/score-spec/score/stargazers)  
+- **[Score Workload Specification](https://github.com/score-spec/score)** [![GitHub_Stars](https://img.shields.io/github/stars/score-spec/score?style=social&color=white)](https://github.com/score-spec/score/stargazers)  
   Developer-centric, open-source workload specification that enables developers to define environment-agnostic workload requirements without needing complex infrastructure code.
 
-- **[Faros AI Community Edition](https://github.com/faros-ai/faros-community-edition)** [![GitHub stars](https://img.shields.io/github/stars/faros-ai/faros-community-edition?style=social&color=white)](https://github.com/faros-ai/faros-community-edition/stargazers)  
+- **[Faros AI Community Edition](https://github.com/faros-ai/faros-community-edition)** [![GitHub_Stars](https://img.shields.io/github/stars/faros-ai/faros-community-edition?style=social&color=white)](https://github.com/faros-ai/faros-community-edition/stargazers)  
   Open-source engineering operational data platform connecting engineering operations data across SCM, CI/CD, issue trackers, and HR systems into a single GraphQL API.
 
-- **[CDEvents Specification](https://github.com/cdevents/spec)** [![GitHub stars](https://img.shields.io/github/stars/cdevents/spec?style=social&color=white)](https://github.com/cdevents/spec/stargazers)  
+- **[CDEvents Specification](https://github.com/cdevents/spec)** [![GitHub_Stars](https://img.shields.io/github/stars/cdevents/spec?style=social&color=white)](https://github.com/cdevents/spec/stargazers)  
   Open standard specification for CloudNative Events in Continuous Delivery (Continuous Integration & Delivery events), enabling interoperable measurement across build pipelines.
 
-- **[CDviz](https://github.com/cdviz/cdviz)** [![GitHub stars](https://img.shields.io/github/stars/cdviz/cdviz?style=social&color=white)](https://github.com/cdviz/cdviz/stargazers)  
+- **[CDviz](https://github.com/cdviz/cdviz)** [![GitHub_Stars](https://img.shields.io/github/stars/cdviz/cdviz?style=social&color=white)](https://github.com/cdviz/cdviz/stargazers)  
   Open-source event-driven pipeline observability and DORA metrics platform built on top of the CDEvents standard.
 
-- **[java-local-metrics (Agoda)](https://github.com/agoda-com/java-local-metrics)** [![GitHub stars](https://img.shields.io/github/stars/agoda-com/java-local-metrics?style=social&color=white)](https://github.com/agoda-com/java-local-metrics/stargazers)  
+- **[java-local-metrics (Agoda)](https://github.com/agoda-com/java-local-metrics)** [![GitHub_Stars](https://img.shields.io/github/stars/agoda-com/java-local-metrics?style=social&color=white)](https://github.com/agoda-com/java-local-metrics/stargazers)  
   Open-source Java library measuring local developer workstation build and test execution performance (the **F5 Experience**).
 
-- **[DevEx Resources](https://github.com/shaharia-lab/devex-resources)** [![GitHub stars](https://img.shields.io/github/stars/shaharia-lab/devex-resources?style=social&color=white)](https://github.com/shaharia-lab/devex-resources/stargazers)  
+- **[DevEx Resources](https://github.com/shaharia-lab/devex-resources)** [![GitHub_Stars](https://img.shields.io/github/stars/shaharia-lab/devex-resources?style=social&color=white)](https://github.com/shaharia-lab/devex-resources/stargazers)  
   Curated resource collection covering Developer Experience research papers, framework specifications, DORA metrics, and SPACE guidelines.
 
-- **[Awesome Developer Experience](https://github.com/prokopsimek/awesome-developer-experience)** [![GitHub stars](https://img.shields.io/github/stars/prokopsimek/awesome-developer-experience?style=social&color=white)](https://github.com/prokopsimek/awesome-developer-experience/stargazers)  
+- **[Awesome Developer Experience](https://github.com/prokopsimek/awesome-developer-experience)** [![GitHub_Stars](https://img.shields.io/github/stars/prokopsimek/awesome-developer-experience?style=social&color=white)](https://github.com/prokopsimek/awesome-developer-experience/stargazers)  
   Curated index of DX tooling, API design standards, knowledge bases, and local development environments.
 
 ---
@@ -131,3 +131,12 @@ If you find this repository helpful for evaluating DevEx platforms, please consi
 ## ⚖️ Disclaimer
 
 *This project is curated for educational and comparison purposes. Product names, logos, and trademarks belong to their respective owners. Pricing data is based on public disclosures and industry benchmark estimates as of 2026.*
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Developer-Experience-Platform&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Developer-Experience-Platform_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Developer-Experience-Platform_growth.svg">
+  </picture>
+</a>
